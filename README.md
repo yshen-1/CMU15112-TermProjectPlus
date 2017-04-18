@@ -1,10 +1,10 @@
-#Program Objective
+# Program Objective
 This is an enhanced version of my CMU 15-112 Term Project, produced after an
 extensive review of the flaws of the original. The color scheme is somewhat
 'improved', and a new game mechanic in which the game screen becomes shaded over
 with a pink overlay as beats occur was added.
 
-#Program Description
+# Program Description
 This program processes an audio .wav file and writes the timestamps associated
 with the beats in the file into the text file 'beats.txt'.
 When the processing is finished, the player is given the option to play a bubble
@@ -13,14 +13,14 @@ from 'beats.txt', and consist of two layers: a visualization of the audio wavefo
 As beats become more frequent, the game screen becomes increasingly shaded over
 by an opaque pink overlay, further increasing difficulty.
 
-#Dependency list
+# Dependency list
 1. Pyaudio
 2. Numpy
 3. Pygame
 4. Python 3
 
-#Installation Instructions:
-##Python 3
+# Installation Instructions:
+## Python 3
 1. Go to https://www.python.org/downloads/ and download the appropriate
    installation package.
 
@@ -40,7 +40,7 @@ by an opaque pink overlay, further increasing difficulty.
    download and install the appropriate .whl file from
    https://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame.
 
-##Overall Program
+## Overall Program
 1. Install all dependencies, as described above. Place 'beats.txt', and 'termProjectPlus.py' in the same directory. 
 2. Place the .wav file you wish to process in the installation directory.
 3. Execute termProjectPlus.py and follow the instructions displayed within the
